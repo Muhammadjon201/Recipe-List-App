@@ -3,7 +3,7 @@
 import SwiftUI
 
 struct RecipeListView: View {
-    
+    // command
     // Reference the view model
     @ObservedObject var model = RecipeModel()
     
