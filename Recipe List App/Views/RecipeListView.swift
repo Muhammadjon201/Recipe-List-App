@@ -6,7 +6,7 @@ struct RecipeListView: View {
     // command
     // Reference the view model
     // bb
-    @ObservedObject var model = RecipeModel()
+    @EnvironmentObject var model:RecipeModel
     
     var body: some View {
         
